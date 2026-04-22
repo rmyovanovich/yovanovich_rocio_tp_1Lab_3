@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Yovanovich Rocio del Mar -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Haz tu Pedido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #fdf5e6; /* El color cremita */
+            color: #333;
+        }
+        header {
+            background: #8b4513; /* El color madera/pan */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #8b4513;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Haz tu Pedido</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Tu pedido:</label><br>
+                <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+
+                <input type="submit" value="Enviar Mensaje">
+            </form>
+        </section>
+
+        <section>
+            <h2>Conoce nuestra cocina</h2>
+            <video width="320" height="240" controls>
+                <source src="video/cocina.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - IPAP RIO NEGRO - Laboratorio 3</p>
+        <p>Yovanovich Rocío del Mar</p>
+    </footer>
+</body>
+</html>
